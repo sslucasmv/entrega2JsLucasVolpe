@@ -1,16 +1,13 @@
 
 const tableBody = document.querySelector("tbody")
 
-
 function recuperarCarrito(){
     return JSON.parse(localStorage.getItem("miCarrito"))
-
 }
 
 
 const carrito = recuperarCarrito();
-
-
+//funcion arma filas con la informacion que viene del archivo json.
 function armarFilaHtml(producto){
     return `  <tr>
     <td>${producto.id}</td>
@@ -20,10 +17,6 @@ function armarFilaHtml(producto){
     <td>${producto.categoria}</td>
 </tr>`
 }
-
-
-
-
 
 if(carrito){
     tableBody.innerHTML = "";
