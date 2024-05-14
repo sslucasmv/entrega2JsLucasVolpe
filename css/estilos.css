@@ -1,0 +1,189 @@
+.bg-body-tertiary{
+    background-color:#f3fef6 !important;
+}
+
+.line-divider {
+    border-bottom: 6px solid #a4c3c4;
+}
+
+.main-title { font-size: 22px; color: #fafafa;}
+
+.navbar-nav li a {color: #2c3d5e !important;}
+
+.content-card { 
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 100x;
+    margin: 20px;
+}
+
+.card-contenedor {
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.display-none {
+    display: none;
+}
+
+.inputPro {
+    padding: 10px;
+    margin-top: 20px;
+    outline:none;
+    border: 1px solid rgb(52, 96, 209);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+.navbar-brand {
+    display: flex; width: 140px; height: 140px;
+}
+.carrito {
+    display: block;
+    width:60px;
+    height: 60px;
+    font-size: 50px;
+}
+
+.imagen {
+    width: 40px;
+    height: 40px;
+}
+
+h1.title-section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 20px 0 5px 20px;
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.bg-btn-search {
+    background-color:#90e4da;    
+}
+
+/*  login */
+
+.cont-flex {
+    display: flex;
+    
+}
+
+.contenedor-login {
+    width: 300px !important;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.f-right {
+    float: right;
+}
+
+.form-header {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color:#325d5f;
+    background-color: #a4c3c4;
+}
+
+.form-content {
+    padding: 10px;
+}
+
+.btn-large {
+    width: 100%;
+    padding: 10px;
+}
+
+/* contenedor */
+
+.title-section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6e6e9b;
+}
+
+.card {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 24%;
+}
+
+.card-body {
+    margin: 0;
+    padding: 10px 10px 20px 10px;
+}
+
+.card img {
+    max-height: 280px;
+    margin: 0;
+    padding: 0;}
+
+.card .card-body h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.card .card-body .price-card {
+    font-size: 20px;
+    color:green;
+}
+
+a.img-carrito {
+    display: block;
+    width: 45px !important;
+    height: 45px !important;
+    background-image: url('../img/bagshop.webp');
+    background-size: cover; /* Esto hace que la imagen cubra todo el div */
+    background-position: center; /* Esto centra la imagen dentro del div */
+}
+
+a.img-carrito span {
+    display: inline-block;
+    background-color: rgb(31, 103, 52);
+    color: #fff;
+    width: auto;
+    padding: 0 6px;
+    border-radius: 100px;
+    margin:25px 0 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
